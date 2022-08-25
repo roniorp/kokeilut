@@ -1,0 +1,6 @@
+kanta = input("anna kannan pituus:")
+sivu = input("anna sivun pituus:")
+kanta1 = float(kanta)
+sivu1 = float(sivu)
+print(f"suorakulmion piiri on:{kanta1*2+sivu1*2:.2f}")
+print(f"suorakulmion pinta-ala:{kanta1*sivu1:.2f}")
